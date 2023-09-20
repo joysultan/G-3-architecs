@@ -73,7 +73,7 @@ nav{
     color: white;
     padding: 20px 40px;
     text-decoration: none;
-    margin-right: 40px;
+    /* margin-right: 40px; */
     font-size: 20px;
     font-weight: 600;
     transition: .3s all ease-in;
@@ -88,3 +88,123 @@ nav{
     margin-bottom: 50px;
 }
 /* banner end */
+/* feature start */
+.feature{
+    margin-bottom: 170px;
+}
+.feature-wrapper{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.grid-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.grid-images img{
+
+}
+.feature-content{
+    width: 30%;
+}
+.feature-content h2{
+    font-size: 45px;
+    
+}
+.gray{
+     color: #727272;
+}
+.orange{
+    color: #FF900E;
+}
+
+.feature-content p{
+    line-height: 26px;
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.feature-content a{
+    text-decoration: none;
+    background-color: #FF900E;
+    color: white;
+    border-radius: 8px;
+    padding: 20px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .3s all ease-in;
+
+}
+.feature-content a:hover{
+    background-color: white;
+    color: orange;
+}
+
+/* feature end */
+/* love-enjoy start */
+.love-enjoy{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    gap: 8%;
+}
+.love-content{
+    width: 35%;
+}
+.love-content h1{
+    font-size: 55px;
+    border-left: 6px solid #FF900E;
+    padding-left: 20px;
+}
+.love-content p{
+    margin: 30px 0;
+    color: #727272;
+}
+.service{
+    width: 586px;
+    height: 171px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-bottom: 20px;
+    transition: .3s all ease-in; 
+}
+
+  
+.service:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.service h2{
+    font-size: 20px;
+}
+.service-image{
+    /* position: relative; */
+}
+.service-image img{
+    width: 708px;
+height: 982px;
+}
+.btn{
+   margin-top: -100px;
+   margin-left: -70px;
+}
+.btn h2{
+    font-size: 25px;
+    font-weight: 500;
+}
+.btn button{
+     font-size: 65px;;
+    background-color: #FF900E;
+    color: white;
+    border-radius: 8px;
+    padding: 45px;
+    border: none;
+    font-weight: 700;
+    
+}
+/* love-enjoy end */
