@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+/* header start */
+.header{
+    background-color: #FFF4E7;
+    margin-bottom: 85px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 200px;
+    
+}
+.branding-name{
+   width: 40%;
+   
+}
+.branding-name a, h1{
+    font-size: 45px;
+    text-decoration: none;
+    color: black;
+    
+}
+.menu{
+   
+    
+}
+.menu ul{
+
+}
+.menu ul li{
+    display: inline;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+    padding: 0 50px;
+    transition: .3s all ease-in;
+}
+.menu ul li a:hover{
+    color: #FF900E;
+}
+/* header end */
+/* banner start */
+.banner-wrapper{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.b-content{
+    text-align: center;
+}
+.b-content h1{
+    font-size: 64px;
+   
+}
+.b-content p{
+    margin: 40px 0;
+    color: #727272;
+}
+.b-content a{
+    border-radius: 8px;
+    background: #FF900E;
+    color: white;
+    padding: 20px 40px;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .3s all ease-in;
+}
+.b-content a:hover{
+    color: #ff900e;
+    background: #fff;
+}
+.b-image{
+    border-radius: 8px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+/* banner end */
